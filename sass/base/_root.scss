@@ -18,4 +18,8 @@
       }
     }
   }
+
+  @each $size-name, $size-value in $font-sizes {
+    --fs-#{$size-name}: #{$size-value};
+  }
 }
